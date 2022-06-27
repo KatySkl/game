@@ -17,3 +17,19 @@ h4 {
   display: inline;
   padding: 5rem;
 }
+
+#square {
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border: #777777;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 auto auto;
+  display: inline-block;
+  
+}
+
+str{
+  padding: 30px;
+}
