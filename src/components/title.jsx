@@ -8,6 +8,7 @@ export const Title = () => {
         <h4>
             <b>Уровень 1 из 999</b>
         </h4>
+        <hr></hr>
         </div>
     )
 }
