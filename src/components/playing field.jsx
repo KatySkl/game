@@ -47,5 +47,6 @@ export const Field = () => {
                 <div className="square"></div>
             </div>
         </div>
+        
     )
 }
