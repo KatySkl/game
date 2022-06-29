@@ -5,7 +5,7 @@ export const Keyboard = () => {
     return (
         
         <div className="keyboard">
-            <div>
+            <div className="container">
                 <button className="letter">й</button>
                 <button className="letter">ц</button>
                 <button className="letter">у</button>
@@ -19,7 +19,7 @@ export const Keyboard = () => {
                 <button className="letter">х</button>
                 <button className="letter">ъ</button>
             </div>
-            <div>
+            <div className="container">
                 <button className="letter">ф</button>
                 <button className="letter">ы</button>
                 <button className="letter">в</button>
@@ -32,7 +32,7 @@ export const Keyboard = () => {
                 <button className="letter">ж</button>
                 <button className="letter">э</button>
             </div>
-            <div>
+            <div className="container">
                 <button className="backSpace"><i class="material-icons">backspace</i></button>
                 <button className="letter">я</button>
                 <button className="letter">ч</button>
@@ -43,7 +43,7 @@ export const Keyboard = () => {
                 <button className="letter">ь</button>
                 <button className="letter">б</button>
                 <button className="letter">ю</button>
-                <button className="letter">ввод</button>
+                <button className="backSpace">ввод</button>
             </div>
         </div>
     )

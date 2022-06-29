@@ -4,10 +4,12 @@ import {Keyboard} from "./components/keyboard"
 
 function App() {
   return (
-    <>
-     <Title />
-     <Field />
-     <Keyboard />
+    < >
+     <div className="app">
+        <Title />
+        <Field />
+        <Keyboard />
+     </div>
     </>
   );
 }

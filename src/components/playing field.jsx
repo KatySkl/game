@@ -46,6 +46,7 @@ export const Field = () => {
                 <div className="square"></div>
                 <div className="square"></div>
             </div>
+            <hr className="indent" />
         </div>
         
     )

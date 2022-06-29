@@ -15,7 +15,7 @@ code {
 
 h4 {
   display: inline;
-  padding: 5rem;
+  padding: 50px;
 }
 
 .square {
@@ -32,11 +32,11 @@ h4 {
 }
 
 hr {
-  width: 30%; 
+  width: 400px; 
   height: 0.8px; 
   background: #777777; 
   border: 0;
-  margin: 20px 0 20px 35%; /* отступ над и под линией 20 пикселей */
+  margin: 20px auto 20px auto; 
 }
 
 .backSpace {
@@ -44,25 +44,41 @@ hr {
   font-size: 20px;
   font-family: sans-serif;
   position: relative;
-  text-align: center;
   border-radius: 0.3em;
   width: 60px;
   height: 50px;
   border: 0;
-  margin: 10px 2px ;
+  margin: 2px ;
+  font-weight: bold;
 }
 
 .letter {
   text-align: center;
-  font-size: 20px;
+  font-size: 19px;
   font-family: sans-serif;
   position: relative;
-  text-align: center;
   border-radius: 0.3em;
   width: 40px;
   height: 50px;
   border: 0;
   margin: 2px;
- 
+  font-weight: bold;
   
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.indent {
+  height: 0px; 
+}
+
+.app {
+  min-width: 400px;
+  max-width: 1300px;
+  min-height: 680px;
+  max-height: 750px;
 }
