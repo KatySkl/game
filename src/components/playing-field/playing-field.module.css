@@ -1,0 +1,16 @@
+.square {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: #777777;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto auto;
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+    
+  }
+
+  .indent {
+    height: 0px; 
+  }

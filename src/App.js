@@ -1,12 +1,14 @@
-import { Title } from "./components/title";
-import { Field } from "./components/playing field";
+import { Title } from "./components/title/title";
+import { Field } from "./components/playing-field/playing-field";
+import {Keyboard} from "./components/keyboard/keyboard";
 
 function App() {
   return (
-    <>
-     <Title />
-     <Field />
-    </>
+     <div className="app">
+        <Title />
+        <Field />
+        <Keyboard />
+     </div>
   );
 }
 
