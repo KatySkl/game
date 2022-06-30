@@ -10,3 +10,7 @@ hr {
     display: inline;
     padding: 50px;
   }
+
+  .indent {
+    height: 0px; 
+  }

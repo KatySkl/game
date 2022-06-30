@@ -1,52 +1,53 @@
 import React from "react";
+import style from './playing-field.module.css'
 
 export const Field = () => {
 
     return(
         <div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <div className="str">
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
-                <div className="square"></div>
+            <div className={style.str}>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
+                <div className={style.square}></div>
             </div>
-            <hr className="indent" />
+            <hr className={style.indent}/>
         </div>
         
     )
