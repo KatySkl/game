@@ -34,7 +34,7 @@ export const Keyboard = () => {
                 <button className={style.letter}>э</button>
             </div>
             <div className={style.container}>
-                <button className={style.backSpace}><i class="material-icons">backspace</i></button>
+                <button className={style.backSpace}><i className="material-icons">backspace</i></button>
                 <button className={style.letter}>я</button>
                 <button className={style.letter}>ч</button>
                 <button className={style.letter}>с</button>

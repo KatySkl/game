@@ -14,8 +14,11 @@ code {
 }
 
 .app {
+  display: grid;
+  place-items: center;
   min-width: 400px;
-  max-width: 1300px;
+  max-width: 500px;
   min-height: 680px;
   max-height: 750px;
+  margin: auto;
 }

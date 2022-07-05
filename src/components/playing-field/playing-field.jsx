@@ -1,54 +1,30 @@
 import React from "react";
 import style from './playing-field.module.css'
 
-export const Field = () => {
-
-    return(
-        <div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <div className={style.str}>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-                <div className={style.square}></div>
-            </div>
-            <hr className={style.indent}/>
+const Cell = ({ character }) => {
+    return (
+        <div className={style.square}>
+            <span>{character.toUpperCase()}</span>
         </div>
-        
+    )
+}
+
+
+/**
+ * Игровое поле
+ * 
+ * @param {*} param0 
+ * @returns 
+ */
+export const Field = ({ field = [] }) => {
+    return (
+        <div className={style['playing-field']}>
+            {field.map((arrayOfChars, row) =>
+                arrayOfChars.map((character, col) =>
+                    <Cell key={`row${row}-col${col}${character}`} character={character} />
+                )
+            )}
+            <hr className={style.indent} />
+        </div>
     )
 }
